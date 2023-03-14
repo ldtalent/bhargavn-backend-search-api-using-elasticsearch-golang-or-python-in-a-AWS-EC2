@@ -7,3 +7,9 @@ You will get to learn the following topics
 3. How to install and configure elasticsearch.
 4. Installing Golang and building a simple search backend API in Golang.
 
+## How to configure AWS EC2 instance:
+1. Sign Up/Log in to AWS.
+2. Go to the EC2 from the navigation panel and click launch instance.
+3. Select region 
+4. Give server name
+5. create key and download the key file. You can add custom security key with port number according to your need in my case that is 1900. Also default tick SSH client support with port 22. 
