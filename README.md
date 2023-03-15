@@ -12,4 +12,9 @@ You will get to learn the following topics
 2. Go to the EC2 from the navigation panel and click launch instance.
 3. Select region 
 4. Give server name
-5. create key and download the key file. You can add custom security key with port number according to your need in my case that is 1900. Also default tick SSH client support with port 22. 
+5. create key and download the key file. You can add custom security key with port number according to your need in my case that is 1900. Also default tick SSH client support with port 22.
+6.Select storage size
+7.Locate private key file which you have stored.In my case filename.pem , give necessary permission and run chmod 400 bnathkey.pem
+
+## Install Golang
+To install Go in EC2 run the following command in AWS EC2 linux terminal.
