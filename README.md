@@ -73,3 +73,10 @@ The above is the jq command and work on linux (As in linux Jq is installed by de
 ```curl -XPOST localhost:9200/students/your_type/_bulk -H "Content-Type: application/x-ndjson" --data-binary @output.json```
 here students is my index name.
 
+## Building a simple search API 
+Run the main.go file with the following command
+```
+sudo go mod init foldername
+sudo go mod tidy
+sudo go run app.go // where app is my file name 
+```
