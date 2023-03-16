@@ -78,5 +78,5 @@ Run the main.go file with the following command
 ```
 sudo go mod init foldername
 sudo go mod tidy
-sudo go run app.go // where app is my file name 
+sudo go run main.go // where main is my file name 
 ```
