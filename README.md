@@ -86,3 +86,6 @@ sudo go run main.go // where main is my file name
 ### So what have I done in main.go file?
 I have students -sheets(2).csv which is a small datasets of student and that needs to be uploaded in elasticsearch. Now I have to make an API that serve data based on the search request, say I need the student data whose firstname is John so my search api return the result of all the students whose firstname is John. See the API respose of my search request as shown below.
 <img title="" alt="Alt text" src="https://github.com/ldtalent/bhargavn-backend-search-api-using-elasticsearch-golang-or-python-in-a-AWS-EC2/blob/main/sc1.PNG">
+
+## Summary
+From this above example my purpose **IS NOT** to show how to bulid a simple search api in Go but "How to implement elasticsearch in backend along with the other business logic (which is going to be different according to your problem statement) in a remote server."
