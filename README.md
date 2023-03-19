@@ -50,12 +50,15 @@ As for the demonstration purpose I have use EC2 free tier instance so I have to 
 sudo nano /etc/elasticsearch/jvm.options
 ```
 Find the line
+```
 -Xms1g
 -Xmx1g
+```
 And reduce it according to your available resources. In my case that would be
+```
 -Xms312m
 -Xmx312m
-
+```
 Then run 
 ``` curl -XGET 'http://localhost:9200'```
 That will start the elasticsearch server on port 9200
