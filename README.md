@@ -93,7 +93,7 @@ sudo go mod tidy
 sudo go run main.go // where main is my file name 
 ```
 ### So what is in the main.go file?
-I have [students -sheets(2).csv]() which is a small datasets of student and that needs to be uploaded in elasticsearch. Now I have to make an API that serve data based on the search request, say I need the student data whose firstname is John so my search api return the result of all the students whose firstname is John. See the API response of my search request as shown below.
+I have [students-sheets(2).csv](https://github.com/ldtalent/bhargavn-backend-search-api-using-elasticsearch-golang-or-python-in-a-AWS-EC2/blob/main/students%20-%20Sheet1%20(2).csv) which is a small datasets of student and that needs to be uploaded in elasticsearch. Now I have to make an API that serve data based on the search request, say I need the student data whose firstname is John so my search api return the result of all the students whose firstname is John. See the API response of my search request as shown below.
 <img title="" alt="Alt text" src="https://github.com/ldtalent/bhargavn-backend-search-api-using-elasticsearch-golang-or-python-in-a-AWS-EC2/blob/main/sc1.PNG">
 
 ## Summary
