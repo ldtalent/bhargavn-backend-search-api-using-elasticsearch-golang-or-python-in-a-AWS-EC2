@@ -83,3 +83,5 @@ sudo go mod init foldername
 sudo go mod tidy
 sudo go run main.go // where main is my file name 
 ```
+### So what have I done in main.go file?
+I have 
